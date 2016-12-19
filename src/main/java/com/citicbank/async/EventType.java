@@ -20,9 +20,5 @@ public enum EventType {
     public int getValue(){
         return value;
     }
-=======
- * Created by FIN on 2016/12/12.
- */
-public enum EventType {
->>>>>>> origin/master
+
 }
