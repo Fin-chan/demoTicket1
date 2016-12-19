@@ -31,7 +31,7 @@ public class UserService {
     private static final String check = "^([a-z0-9A-Z]+[-|_|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
 
     /**
-     * email正则
+     * email正则过滤
      * @param email
      * @return
      */
