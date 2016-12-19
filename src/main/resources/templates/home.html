@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>电影售票</title>
+</head>
+<body>
+    #foreach($vo in $vos)
+    $!{vo.ticket.id}  <br/>
+
+    #end
+    #foreach($vo in $vos)
+    $!{vo.ticket.title}
+    #end
+    #foreach($vo in $vos)
+    $!{vo.ticket.likecount}
+    #end
+
+
+</body>
+</html>
